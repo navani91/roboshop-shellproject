@@ -43,6 +43,6 @@ fi
 
 
 for component in catalogue cart user shipping payment frontend mongodb mysql rabbitmq redis dispatch; do
-  COMPONENT="${component}-$
+  COMPONENT=${component}-$
   create_ec2
 done
